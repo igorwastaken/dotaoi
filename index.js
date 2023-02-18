@@ -7,6 +7,6 @@ const bot = new aoijs.AoiClient({
   events: ["onMessage"],
 });
 
-const aoiFile = require('./utils/fileName')
+const aoiFile = require('./utils/commandsReader')
 
 aoiFile.loadCommands(bot, true)
