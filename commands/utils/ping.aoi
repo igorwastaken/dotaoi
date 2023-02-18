@@ -1,1 +1,2 @@
-$pingMS
+NAME ping; ALIASES ["pong", "test"];
+$pingMS: William é viado

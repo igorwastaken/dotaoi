@@ -22,6 +22,8 @@ TOKEN="YOUR BOT TOKEN"
 ## Create Commands 
 Now go to the `commands` folder and create the command you want.
 
+NOTE: all commands needs starts with `NAME {commandName}; ALIASES {commandAliases (optional)};` to set command name and aliases
+
 ## Categories
 Go to `index.js` and on the last line put this:
 ```js
