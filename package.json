@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/apenasigordev/dotaoi#readme",
   "dependencies": {
-    "aoi.js": "^6.1.0"
+    "aoi.js": "^6.1.0",
+    "dotenv": "^16.0.3"
   }
 }
