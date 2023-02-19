@@ -6,11 +6,11 @@
 # How to setup
 Below we will have a list of commands for you to setup this "plugin".
 
-## Clone repo
+## Install package
 Execute this command first:
 
 ```bash
-git clone https://github.com/apenasigordev/dotaoi.git
+npm i https://github.com/apenasigordev/dotaoi
 ```
 
 ## Environment Variables 
@@ -22,7 +22,7 @@ TOKEN="YOUR BOT TOKEN"
 ## Create Commands 
 Now go to the `commands` folder and create the command you want.
 
-NOTE: all commands needs starts with `NAME {commandName}; ALIASES {commandAliases (optional)};` to set command name and aliases
+NOTE: all commands needs starts with `NAME {commandName}; ALIASES {["commandAliase1", "commandAliase2"] (optional)};` to set command name and aliases
 
 ## Categories
 Go to `index.js` and on the last line put this:
