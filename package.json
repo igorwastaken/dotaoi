@@ -1,8 +1,9 @@
 {
-  "name": "dotaoi",
-  "version": "1.0.2",
+  "name": "@apenasigordev/dotaoi",
+  "version": "1.0.3",
   "description": ".dot plugin for AOI.JS",
   "main": "utils/commandsReader.js",
+  "private": false,
   "scripts": {
     "test": "node index.js",
     "publish": "npm login && npm publish && node . && npm run test"
