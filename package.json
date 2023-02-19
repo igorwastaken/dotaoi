@@ -1,16 +1,21 @@
 {
-  "name": "A",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "dotaoi",
+  "version": "1.0.2",
+  "description": ".dot plugin for AOI.JS",
+  "main": "utils/commandsReader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js",
+    "publish": "npm login && npm publish && node . && npm run test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apenasigordev/dotaoi.git"
   },
-  "keywords": [],
+  "keywords": [
+    "aoi.js",
+    "aoi",
+    "customfile"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
